@@ -1,0 +1,12 @@
+{
+    "name": "alexey/sum",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cs-eliseev",
+            "email": "a.k.eliseev@gmail.com"
+        }
+    ],
+    "require": {}
+}
