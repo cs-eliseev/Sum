@@ -4,9 +4,8 @@ namespace Alexey;
 
 class Sum
 {
-    function sum($a, $b)
+    public function sum(int $a, int $b): string
     {
-        $s = $a + $b;
-        return "Alexey says, that $a + $b = $s" . PHP_EOL;
+        return "Alexey says, that {$a} + {$b} = " . ($a + $b) . PHP_EOL;
     }
 }
